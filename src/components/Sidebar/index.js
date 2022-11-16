@@ -3,7 +3,7 @@ import {Link, NavLink} from 'react-router-dom'
 import LogoMe from '../../assets/images/logo-s.png';
 import LogoSubtitle from '../../assets/images/logo_sub.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faLinkedin,faGithub,} from '@fortawesome/free-brands-svg-icons';
+import {faLinkedin,faGithub, faSalesforce, faYoutube,} from '@fortawesome/free-brands-svg-icons';
 import {faHome,faUser,faEnvelope,faSuitcase,faBars,faClose,} from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 
@@ -77,6 +77,32 @@ const Sidebar = () => {
           >
             <FontAwesomeIcon
               icon={faGithub}
+              color="#827397"
+              className="anchor-icon"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://trailblazer.me/id/dhickox1"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faSalesforce}
+              color="#827397"
+              className="anchor-icon"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/channel/UCeHPkw1Uk9QhMTu35Yf1FBQ/featured"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faYoutube}
               color="#827397"
               className="anchor-icon"
             />
