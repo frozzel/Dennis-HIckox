@@ -10,6 +10,8 @@ import {
     faReact,
   } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React from 'react'
+import Snowfall from 'react-snowfall'
 
 
 const Home = ()=> {
@@ -43,7 +45,16 @@ const Home = ()=> {
 
     return (
         <>
+                <Snowfall
+  // Changes the snowflake color
+  color="#7cc5d9"
+  // Applied to the canvas element
+  style={{opacity: '.4' }}
+  // Controls the number of snowflakes that are created (default 150)
+  snowflakeCount={100}
+/>
         <div className="container home-page">
+            
             <div className="text-zone">
                 <h1>
                 <span className={letterClass}>H</span>
