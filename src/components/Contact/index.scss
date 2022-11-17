@@ -81,11 +81,25 @@
   .info-vid {
     position: absolute;
     display: flex;
-    top: 40%;
+    border-radius: 25px;
+    top: 50%;
     left: 55%;
-    animation: fadeIn 1s 1.5s;
+    animation: fadeIn 6s 1.5s;
     animation-fill-mode: forwards;
+    
+    iframe{
+      border-radius: 13px;
+      border-color: #E9D5DA;
+      box-shadow: 1px 1px 2px #E9D5DA;
+    }
   
+  }
+  .salesforceImg{
+    position: absolute;
+    width: 500px;
+    top: -120%;
+    opacity: 0.8;
+   
   }
   
   @media screen and (max-width: 900px) {
@@ -93,11 +107,14 @@
     .info-vid {
       flex-direction: column;
       position: relative;
-      bottom: 10px;
+      bottom: 1px;
       left: 5%;
       width: 100%;
       margin: 0;
       float: none;
-      
+
+    .salesforceImg{
+      display: none;
+      }
     }
   }
