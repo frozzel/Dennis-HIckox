@@ -17,7 +17,7 @@ import Snowfall from 'react-snowfall'
 const Home = ()=> {
     const [letterClass] = useState('text-animate')
   
-    const nameArray = ['','D', 'e', 'n', 'n', 'i', 's', '', 'H', 'i', 'c', 'k', 'o', 'x', ','];
+    const nameArray = ['D', 'e', 'n', 'n', 'i', 's', '', 'H', 'i', 'c', 'k', 'o', 'x', ','];
     const jobArray = [
         'F',
         'u',
@@ -57,16 +57,13 @@ const Home = ()=> {
             
             <div className="text-zone">
                 <h1>
-                <span className={letterClass}>H</span>
-                <span className={`${letterClass} _12`}>i,</span>
-                <br />
-                <span className={`${letterClass} _13`}>I</span>
-                <span className={`${letterClass} _14`}>'m</span>
+                
                 <AnimatedLetters
                     letterClass={letterClass}
                     strArray={nameArray}
                     idx={15}
                 />
+              
                 <br />
                 <AnimatedLetters
                     letterClass={letterClass}

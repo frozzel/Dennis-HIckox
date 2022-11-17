@@ -1,7 +1,10 @@
 .contact-form {
     width: 100%;
     margin-top: 20px;
-  
+    h1 {
+      animation: fadeInUp 4s 4s;
+      animation-fill-mode: forwards;
+    }
     ul {
       padding: 0;
       margin: 0;
@@ -84,7 +87,7 @@
     border-radius: 25px;
     top: 50%;
     left: 55%;
-    animation: fadeIn 6s 1.5s;
+    animation: fadeInRight 3.5s;
     animation-fill-mode: forwards;
     
     iframe{
