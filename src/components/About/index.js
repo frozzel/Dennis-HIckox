@@ -1,17 +1,9 @@
 import { useState } from 'react';
-import {
-  faSalesforce,
-  faCss3,
-  faGitAlt,
-  faHtml5,
-  faJsSquare,
-  faReact,
-} from '@fortawesome/free-brands-svg-icons'
 import AnimatedLetters from '../AnimatedLetters'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
 import React from 'react'
-import Snowfall from 'react-snowfall'
+import Snowfall from 'react-snowfall';
+import logo from './logo.svg';
 
 const About = () => {
   const [letterClass ] = useState('text-animate')
@@ -39,55 +31,34 @@ const About = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={['S', 'k', 'i', 'l', 'l', 's', ' ', '&', ' ', 'E', 'x', 'p', 'e', 'r', 'i', 'e', 'n', 'c', 'e']}
-              idx={15}
+              idx={20}
             />
           </h1>
-          <ul>
-         <li>Front end programming languages HTML, Javascript, React, SASS and CSS</li> 
-         <li>Version control systems, Git and GitHub</li> 
-         <li>APIs like REST and SOAP as well as protocol like HTTP</li> 
-         <li>Database storage solutions like JSON, SQL, and NoSQL</li> 
-         <li>Graphic design and visual communications skills</li> 
-         <li>Troubleshoot user and system issues, providing training, assistance, and solutions for end users</li> 
-         <li>Deep functional understanding of business process on the Salesforce platform that can assist users with functional
-            issues and requests</li> 
-         <li>Creating and maintaining Reports, Dashboards, fields, assignment rules, validation rules, page layouts, flows and
-            process builder</li> 
-         <li>Setting up new users, profiles, permission sets and roles, Ensuring data integrity and security</li> 
-         <li>Configure customized solutions within the SFDC platform to support critical business functions and meet project
-            objectives and client requirements.</li> 
-          </ul>
+          <div>
+         <p>Front end programming languages HTML, Javascript, React, SASS and CSS</p> 
+         <p>Version control systems, Git and GitHub</p> 
+         <p>APIs like REST and SOAP as well as protocol like HTTP</p> 
+         <p>Database storage solutions like JSON, SQL, and NoSQL</p> 
+         <p>Graphic design and visual communications skills</p> 
+         <p>Troubleshoot user and system issues, providing training, assistance, and solutions for end users</p> 
+         <p>Deep functional understanding of business process on the Salesforce platform that can assist users with functional
+            issues and requests</p> 
+         <p>Creating and maintaining Reports, Dashboards, fields, assignment rules, validation rules, page layouts, flows and
+            process builder</p> 
+         <p>Setting up new users, profiles, permission sets and roles, Ensuring data integrity and security</p> 
+         <p>Configure customized solutions within the SFDC platform to support critical business functions and meet project
+            objectives and client requirements.</p> 
+          </div>
           
         </div>
         </div>
-        <div className="stage-cube-cont">
-        <Snowfall
-  // Changes the snowflake color
-  color="#7cc5d9"
-  // Applied to the canvas element
-  style={{opacity: '.4' }}
-  // Controls the number of snowflakes that are created (default 150)
-  snowflakeCount={100}
-/>
-          <div className="cubespinner">
-            <div className="face1">
-              <FontAwesomeIcon icon={faSalesforce} color="#DD0031" />
-            </div>
-            <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
-            </div>
-            <div className="face3">
-              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
-            </div>
-            <div className="face4">
-              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-            </div>
-            <div className="face5">
-              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
-            </div>
-            <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
-            </div>
+        <div className="">
+        <Snowfall color="#7cc5d9" style={{opacity: '.4' }} snowflakeCount={100}/>
+
+        
+          <div className="App-logo">
+          <div><img src={logo} className="App-logo" alt="logo" /></div>
+            
           </div>
         </div>
       
@@ -95,4 +66,4 @@ const About = () => {
   )
 }
 
-export default About
+export default About;
