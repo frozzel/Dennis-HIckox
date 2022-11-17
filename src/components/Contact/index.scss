@@ -1,10 +1,13 @@
+
 .contact-form {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
     h1 {
+      margin-bottom: 10px;
       animation: fadeInUp 4s 4s;
       animation-fill-mode: forwards;
     }
+    
     ul {
       padding: 0;
       margin: 0;
@@ -79,7 +82,24 @@
     }
   }
   
- 
+  .icon {
+      bottom: 20px;
+      padding: 0;
+      text-align: center;
+      margin-right: 40px;
+      padding: 7px 0;
+      font-size: 50px;
+      line-height: 16px;
+      color: whitesmoke;
+      animation: fadeInLeft 2s 2.5s;
+      animation-fill-mode: both;
+
+      &:hover {
+        .anchor-icon {
+          color: #E9D5DA;
+        }
+      }
+  }
   
   .info-vid {
     position: absolute;
@@ -111,8 +131,8 @@
       flex-direction: column;
       position: relative;
       bottom: 1px;
-      left: 5%;
-      width: 100%;
+      left: 1%;
+      width: 50px;
       margin: 0;
       float: none;
 
