@@ -5,6 +5,9 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss';
 import Salesforce from '../../assets/images/Salesforce.png';
 import Snowfall from 'react-snowfall';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faLinkedin,faGithub, faSalesforce, faYoutube,} from '@fortawesome/free-brands-svg-icons';
+
 
 
 const Contact = () => {
@@ -40,6 +43,60 @@ const Contact = () => {
               idx={15}
             />
           </h1>
+          <div >
+        <span className='icon'>
+          <a 
+            href="https://linkedin.com/in/dennis-hickox-1b0a10227"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              color="#827397"
+              className="anchor-icon"
+            />
+          </a>
+        </span>
+        <span className='icon'>
+          <a
+            href="https://github.com/frozzel"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faGithub}
+              color="#827397"
+              className="anchor-icon"
+            />
+          </a>
+        </span>
+        <span className='icon'>
+          <a
+            href="https://trailblazer.me/id/dhickox1"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faSalesforce}
+              color="#827397"
+              className="anchor-icon"
+            />
+          </a>
+        </span>
+        <span className='icon'> 
+          <a
+            href="https://www.youtube.com/channel/UCeHPkw1Uk9QhMTu35Yf1FBQ/featured"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faYoutube}
+              color="#827397"
+              className="anchor-icon"
+            />
+          </a>
+        </span>
+      </div>
           <p>
             I am interested in freelance opportunities, full time MERN Development and Salesforce Integrations. However, if you have any other requests or
             questions, don't hesitate to contact me using below form either. Check out the Video on how I use this data in my Saleforce Dev Org to analyze employment opportunities!
