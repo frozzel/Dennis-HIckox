@@ -2,9 +2,10 @@ import {useState } from 'react'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
-import './index.scss'
-import { faSalesforce } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import './index.scss';
+import Salesforce from '../../assets/images/Salesforce.png';
+import Snowfall from 'react-snowfall';
+
 
 const Contact = () => {
   const [letterClass] = useState('text-animate')
@@ -30,6 +31,7 @@ const Contact = () => {
   return (
     <>
       <div className="container contact-page">
+      <Snowfall color="#7cc5d9" style={{opacity: '.4' }} snowflakeCount={100}/>
         <div className="text-zone">
           <h1>
             <AnimatedLetters
@@ -79,13 +81,9 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-vid">
-        <div><img src={faSalesforce} className="info-vid" alt="logo" /></div>
-        <FontAwesomeIcon
-              icon={faSalesforce}
-              color="#827397"
-              className="anchor-icon"
-            />
-        <iframe width="500" height="300" src="https://www.youtube.com/embed/tDBYmzdEHi0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        <img src={Salesforce} className="salesforceImg" alt="Salesforce Logo" />
+        
+        <iframe width="500" height="300" src="https://www.youtube.com/embed/tDBYmzdEHi0" title="YouTube video player" frameBorder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
       </div>
     

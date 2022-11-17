@@ -76,7 +76,7 @@ const Home = ()=> {
                 </h1>
 
 
-            <h2>Full Stack Developer / JavaScript / React / Salesforce Admin</h2>
+            <h2>MongoDb / Express / React / NodeJs / Salesforce Admin</h2>
 
             </div>
             </div>
