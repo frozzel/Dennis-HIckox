@@ -80,8 +80,8 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div className="info-vid">
-        <img src={Salesforce} className="salesforceImg" alt="Salesforce Logo" />
+        <div className="info-vid" >
+        <img src={Salesforce} className="contact-page salesforceImg" alt="Salesforce Logo" />
         
         <iframe width="500" height="300" src="https://www.youtube.com/embed/tDBYmzdEHi0" title="YouTube video player" frameBorder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
