@@ -1,5 +1,5 @@
 import './index.scss';
-import { useState } from 'react';
+import { useState, useEffect} from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import {
     faSalesforce,
@@ -15,7 +15,20 @@ import Snowfall from 'react-snowfall'
 
 
 const Home = ()=> {
-    const [letterClass] = useState('text-animate')
+    const [letterClass, setLetterClass] = useState('text-animate');
+    useEffect(() => {
+      const timer = setTimeout(() => {
+          setLetterClass('text-animate-hover');
+      }, 6000);
+
+      return () => {
+          clearTimeout(timer);
+      }
+  });
+
+  useEffect(() => {
+     
+  }, []);
   
     const nameArray = ['D', 'e', 'n', 'n', 'i', 's', '', 'H', 'i', 'c', 'k', 'o', 'x', ','];
     const jobArray = [

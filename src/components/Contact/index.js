@@ -1,4 +1,4 @@
-import {useState } from 'react'
+import {useState, useEffect } from 'react'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
@@ -11,8 +11,22 @@ import {faLinkedin,faGithub, faSalesforce, faYoutube,} from '@fortawesome/free-b
 
 
 const Contact = () => {
-  const [letterClass] = useState('text-animate')
+  const [letterClass, setLetterClass] = useState('text-animate')
   const form = useRef()
+  
+  useEffect(() => {
+      const timer = setTimeout(() => {
+          setLetterClass('text-animate-hover');
+      }, 3000);
+
+      return () => {
+          clearTimeout(timer);
+      }
+  });
+
+  useEffect(() => {
+     
+  }, []);
 
 
   const sendEmail = (e) => {

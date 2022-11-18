@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import React from 'react'
@@ -6,8 +6,23 @@ import Snowfall from 'react-snowfall';
 import logo from './logo.svg';
 
 const About = () => {
-  const [letterClass ] = useState('text-animate')
+  
+  const [letterClass, setLetterClass] = useState('text-animate');
+  
 
+  useEffect(() => {
+      const timer = setTimeout(() => {
+          setLetterClass('text-animate-hover');
+      }, 3000);
+
+      return () => {
+          clearTimeout(timer);
+      }
+  });
+
+  useEffect(() => {
+     
+  }, []);
   
 
   return (
