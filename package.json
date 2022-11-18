@@ -2,7 +2,7 @@
   "name": "dennis-hickox",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://frozzel.github.io/Dennis-Hickox/",
+  "homepage": "https://frozzel.github.io/dennis-hickox/",
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
     "@fortawesome/free-brands-svg-icons": "^6.2.0",
