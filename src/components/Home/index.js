@@ -10,8 +10,8 @@ import {
     faReact,
   } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import React from 'react'
-import Snowfall from 'react-snowfall'
+import React from 'react';
+import Snowfall from 'react-snowfall';
 
 
 const Home = ()=> {
