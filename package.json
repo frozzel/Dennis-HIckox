@@ -22,8 +22,7 @@
     "react-snowfall": "^1.2.1",
     "router-dom": "^2.2.9",
     "sass": "^1.56.1",
-    "web-vitals": "^2.1.4"
-    
+
   },
   "scripts": {
     "start": "react-scripts start",
