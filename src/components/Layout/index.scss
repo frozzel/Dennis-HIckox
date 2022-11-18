@@ -27,7 +27,7 @@
       h1 {
         font-size: 53px;
         font-family: 'Coolvetica';
-        color: #E9D5DA;
+        color: #fff;
         font-weight: 400;
         margin-top: 0;
         position: relative;
@@ -91,7 +91,8 @@
   
     .text-animate-hover {
       &:hover {
-        color: #E9D5DA;
+        color: #61DAFB;
+        opacity: .6;
       }
     }
   }
