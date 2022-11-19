@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dennis-hickox/static/css/main.0b4abe11.css",
-    "main.js": "/dennis-hickox/static/js/main.c6a14746.js",
+    "main.js": "/dennis-hickox/static/js/main.98d604bd.js",
     "static/js/787.8559c6dc.chunk.js": "/dennis-hickox/static/js/787.8559c6dc.chunk.js",
     "static/media/Cup.png": "/dennis-hickox/static/media/Cup.747c182150f9c3736a9b.png",
     "static/media/Notes.png": "/dennis-hickox/static/media/Notes.32e5c1d0e0e0144198c3.png",
@@ -20,11 +20,11 @@
     "static/media/logo.svg": "/dennis-hickox/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/dennis-hickox/index.html",
     "main.0b4abe11.css.map": "/dennis-hickox/static/css/main.0b4abe11.css.map",
-    "main.c6a14746.js.map": "/dennis-hickox/static/js/main.c6a14746.js.map",
+    "main.98d604bd.js.map": "/dennis-hickox/static/js/main.98d604bd.js.map",
     "787.8559c6dc.chunk.js.map": "/dennis-hickox/static/js/787.8559c6dc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b4abe11.css",
-    "static/js/main.c6a14746.js"
+    "static/js/main.98d604bd.js"
   ]
 }
