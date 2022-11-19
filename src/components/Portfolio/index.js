@@ -40,12 +40,12 @@ const Portfolio = () => {
                     />
                 </h1>
                 <p>Please checkout my work as I progress with my Full Stack Development skills! Each site links
-                    to its github repo with links in the Readme files to the live site. Keep in mind the sites are
+                    to the live site. Keep in mind the sites are
                     deployed using Heroku who sleeps inactive sites to conserve on energy!
           </p>
           
                 <div className='card-grid-view'>
-                <div className='card-body'><a href="https://github.com/frozzel/Class-Notes">
+                <div className='card-body'><a href="https://class-note-taker-project.herokuapp.com/">
                         <div className="card-wrapper">
                             <div className='card-img-overlay'>
                                 <img src={Notes} alt="" />
@@ -54,7 +54,7 @@ const Portfolio = () => {
                         </div> </a>
                     </div>
                    
-                    <div className='card-body'><a href="https://github.com/frozzel/Flyguys">
+                    <div className='card-body'><a href="https://flyguys.herokuapp.com/">
                         <div className="card-wrapper">
                             <div className='card-img-overlay'>
                                 <img src={FlyGuys} alt="FlyGuys" />
@@ -62,7 +62,7 @@ const Portfolio = () => {
                         
                         </div> </a>
                     </div>
-                    <div className='card-body'><a href="https://github.com/frozzel/Climate-Change">
+                    <div className='card-body'><a href="https://frozzel.github.io/Climate-Change/">
                         <div className="card-wrapper">
                             <div className='card-img-overlay'>
                                 <img src={Weather} alt="Weather Dashboard" />
@@ -70,7 +70,7 @@ const Portfolio = () => {
                         
                         </div> </a>
                     </div>
-                    <div className='card-body'><a href="https://github.com/frozzel/GlobalEquity">
+                    <div className='card-body'><a href="http://frozzel.github.io/GlobalEquity/">
                         <div className="card-wrapper">
                             <div className='card-img-overlay'>
                                 <img src={Global} alt="Global Equity" />
@@ -78,7 +78,7 @@ const Portfolio = () => {
                         
                         </div> </a>
                     </div>
-                    <div className='card-body'><a href="https://github.com/frozzel/CupOTears">
+                    <div className='card-body'><a href="https://frozzel.github.io/CupOTears/">
                         <div className="card-wrapper">
                             <div className='card-img-overlay'>
                                 <img src={Cup} alt="Cup O' Tears" />
@@ -86,7 +86,7 @@ const Portfolio = () => {
                         
                         </div> </a>
                     </div>
-                    <div className='card-body'><a href="https://github.com/frozzel/KETORIFIC">
+                    <div className='card-body'><a href="https://ketorific.herokuapp.com/">
                         <div className="card-wrapper">
                             <div className='card-img-overlay'>
                                 <img src={KETORIFIC} alt="KETORIFIC" />
