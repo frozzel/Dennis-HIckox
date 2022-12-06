@@ -37,7 +37,8 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <a href={resume} >Resume</a>
+          <a href={resume} target="_blank"
+            rel="noreferrer">Resume</a>
           <p>
          Motivated Full Stack Web Developer and Junior Salesforce Administrator looking to join a growing team to continue building and improving on my Salesforce platform and Web Development capabilities.
           </p>

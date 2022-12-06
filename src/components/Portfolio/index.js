@@ -7,6 +7,7 @@ import Weather from '../../assets/images/Weather.png';
 import Global from '../../assets/images/Global.png';
 import Cup from '../../assets/images/Cup.png';
 import Notes from '../../assets/images/Notes.png';
+import Tikkitt from '../../assets/images/Shot1.png';
 import Snowfall from 'react-snowfall';
 
 
@@ -40,12 +41,26 @@ const Portfolio = () => {
                     />
                 </h1>
                 <p>Please checkout my work as I progress with my Full Stack Development skills! Each site links
-                    to the live site. Keep in mind the sites are
+                    to the live site, you can also view the code in its Repo from my Github page. Keep in mind the sites are
                     deployed using Heroku who sleeps inactive sites to conserve on energy!
           </p>
           
                 <div className='card-grid-view'>
-                <div className='card-body'><a href="https://class-note-taker-project.herokuapp.com/">
+
+                <div className='card-body'><a href="https://tikkitt.herokuapp.com/" target="_blank"
+            rel="noreferrer">
+                        <div className="card-wrapper">
+                            <div className='card-img-overlay'>
+                                <img src={Tikkitt} alt="" />
+                            </div>
+                        
+                        </div> </a>
+                    </div>
+
+
+
+                <div className='card-body'><a href="https://class-note-taker-project.herokuapp.com/" target="_blank"
+            rel="noreferrer">
                         <div className="card-wrapper">
                             <div className='card-img-overlay'>
                                 <img src={Notes} alt="" />
@@ -54,7 +69,8 @@ const Portfolio = () => {
                         </div> </a>
                     </div>
                    
-                    <div className='card-body'><a href="https://flyguys.herokuapp.com/">
+                    <div className='card-body'><a href="https://flyguys.herokuapp.com/" target="_blank"
+            rel="noreferrer">
                         <div className="card-wrapper">
                             <div className='card-img-overlay'>
                                 <img src={FlyGuys} alt="FlyGuys" />
@@ -62,7 +78,8 @@ const Portfolio = () => {
                         
                         </div> </a>
                     </div>
-                    <div className='card-body'><a href="https://frozzel.github.io/Climate-Change/">
+                    <div className='card-body'><a href="https://frozzel.github.io/Climate-Change/" target="_blank"
+            rel="noreferrer">
                         <div className="card-wrapper">
                             <div className='card-img-overlay'>
                                 <img src={Weather} alt="Weather Dashboard" />
@@ -70,7 +87,8 @@ const Portfolio = () => {
                         
                         </div> </a>
                     </div>
-                    <div className='card-body'><a href="http://frozzel.github.io/GlobalEquity/">
+                    <div className='card-body'><a href="http://frozzel.github.io/GlobalEquity/" target="_blank"
+            rel="noreferrer">
                         <div className="card-wrapper">
                             <div className='card-img-overlay'>
                                 <img src={Global} alt="Global Equity" />
@@ -78,7 +96,8 @@ const Portfolio = () => {
                         
                         </div> </a>
                     </div>
-                    <div className='card-body'><a href="https://frozzel.github.io/CupOTears/">
+                    <div className='card-body'><a href="https://frozzel.github.io/CupOTears/" target="_blank"
+            rel="noreferrer">
                         <div className="card-wrapper">
                             <div className='card-img-overlay'>
                                 <img src={Cup} alt="Cup O' Tears" />
@@ -86,7 +105,8 @@ const Portfolio = () => {
                         
                         </div> </a>
                     </div>
-                    <div className='card-body'><a href="https://ketorific.herokuapp.com/">
+                    <div className='card-body'><a href="https://ketorific.herokuapp.com/" target="_blank"
+            rel="noreferrer">
                         <div className="card-wrapper">
                             <div className='card-img-overlay'>
                                 <img src={KETORIFIC} alt="KETORIFIC" />
