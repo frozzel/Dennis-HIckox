@@ -21,6 +21,17 @@
       font-weight: 400;
   
     }
+    a{
+      text-decoration: underline;
+      
+      color: #fff;
+      font-weight: 400;
+      font-size: 15px;
+      font-family: sans-serif;
+      letter-spacing: 3px;
+      animation: fadeIn 1s 1.8s backwards;
+      font-weight: bolder;
+    }
   
     p {
       color: #E9D5DA;

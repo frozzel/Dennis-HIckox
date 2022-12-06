@@ -4,6 +4,7 @@ import './index.scss'
 import React from 'react'
 import Snowfall from 'react-snowfall';
 import logo from './logo.svg';
+import resume from '../../assets/images/DennisHickoxResume.pdf';
 
 const About = () => {
   
@@ -36,8 +37,9 @@ const About = () => {
               idx={15}
             />
           </h1>
+          <a href={resume} >Resume</a>
           <p>
-         Test! Motivated Full Stack Web Developer and Junior Salesforce Administrator looking to join a growing team to continue building and improving on my Salesforce platform and Web Development capabilities.
+         Motivated Full Stack Web Developer and Junior Salesforce Administrator looking to join a growing team to continue building and improving on my Salesforce platform and Web Development capabilities.
           </p>
           <p align="LEFT">
           Can provide administration and customization of internal and outward facing Salesforce products and front end/backend web development. Looking for a key position in a dynamic and entrepreneurial environment that is focused on growing a suite of products and services.
