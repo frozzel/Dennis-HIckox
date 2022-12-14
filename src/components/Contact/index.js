@@ -7,6 +7,7 @@ import Salesforce from '../../assets/images/Salesforce.png';
 import Snowfall from 'react-snowfall';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faLinkedin,faGithub, faSalesforce, faYoutube,} from '@fortawesome/free-brands-svg-icons';
+import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -84,6 +85,19 @@ const Contact = () => {
             />
           </a>
         </span>
+        <span className='icon'> 
+          <a
+            href="mailto:frozzel@me.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              color="#827397"
+              className="anchor-icon"
+            />
+          </a>
+        </span>
         <span className='icon'>
           <a
             href="https://trailblazer.me/id/dhickox1"
@@ -110,6 +124,7 @@ const Contact = () => {
             />
           </a>
         </span>
+       
       </div>
           <p>
             I am interested in freelance opportunities, full time MERN Development and Salesforce Integrations. However, if you have any other requests or
