@@ -12,6 +12,7 @@ function App() {
       
     <Routes >
     <Route path="/" element={<Layout />}>
+       <Route path="/dennis-hickox/" exact component={Home} />
        <Route index element={<Home />} />
        <Route path="/about" element={<About />} />
        <Route path="/contact" element={<Contact />} />
