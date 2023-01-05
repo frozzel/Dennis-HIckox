@@ -8,7 +8,7 @@ const Layout = () => {
   <Sidebar />
       <div className="page">
    
-
+        
         <Outlet />
         
       </div>
