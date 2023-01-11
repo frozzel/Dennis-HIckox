@@ -8,6 +8,7 @@ import Global from '../../assets/images/Global.png';
 import Cup from '../../assets/images/Cup.png';
 import Notes from '../../assets/images/Notes.png';
 import Tikkitt from '../../assets/images/Shot1.png';
+import indulge from '../../assets/images/indulgeScreen.png';
 import Snowfall from 'react-snowfall';
 
 
@@ -50,6 +51,32 @@ const Portfolio = () => {
                 <section className="dark">
 	<div className=" py-4">
 		{/* <h1 className="h1 text-center" id="pageHeaderTitle">My Cards Dark</h1> */}
+		<article className="postcard dark blue">
+			<a className="postcard__img_link" href="https://indulge.herokuapp.com/" target="_blank" rel="noreferrer">
+				<img className="postcard__img" src={indulge} alt="indulge" />	
+			</a>
+			<div className="postcard__text">
+				<h1 className="postcard__title red"><a href="https://indulge.herokuapp.com/" target="_blank" rel="noreferrer">Indulge</a></h1>
+				<div className="postcard__subtitle small">
+					<time datetime="2020-05-25 12:00:00">
+						<i className="fas fa-calendar-alt mr-2"></i>January 2023
+					</time>
+				</div>
+				<div className="postcard__bar"></div>
+				<div className="postcard__preview-txt">Mock Ecommerce site that utilizes global state and react hooks. The site is integrated with stripe payments. Full stack application with mongoDb/mongoose integrations & Apollo/graphql server side. React/Apollo integration frontside utilizing global state and stripe integration along with animate.css and SASS.</div>
+				<ul className="postcard__tagbox">
+                <li className="tag__item play blue">
+						<a href="https://github.com/frozzel/LUX" target="_blank" rel="noreferrer"><i className="fas fa-play mr-2"></i>Github</a>
+					</li>
+                    <li className="tag__item play blue">
+						<a href="https://indulge.herokuapp.com/" target="_blank" rel="noreferrer"><i className="fas fa-play mr-2"></i>Deployed</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+
+
+
 
 		<article className="postcard dark blue">
 			<a className="postcard__img_link" href="https://tikkitt.herokuapp.com/" target="_blank" rel="noreferrer">
