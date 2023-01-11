@@ -5,6 +5,7 @@ import React from 'react'
 import Snowfall from 'react-snowfall';
 import logo from './logo.svg';
 import resume from '../../assets/images/DennisHickoxResume.pdf';
+import AWS from '../../assets/images/awsTraining.pdf';
 
 const About = () => {
   
@@ -37,8 +38,10 @@ const About = () => {
               idx={15}
             />
           </h1>
+          <p>
           <a href={resume} target="_blank"
-            rel="noreferrer">Resume</a>
+            rel="noreferrer">Resume</a><span>  </span><a href={AWS} target="_blank"
+            rel="noreferrer">Amazon</a></p>
           <p>
          Motivated Full Stack Web Developer and Junior Salesforce Administrator looking to join a growing team to continue building and improving on my Salesforce platform and Web Development capabilities.
           </p>
