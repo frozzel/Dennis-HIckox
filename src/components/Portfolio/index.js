@@ -71,6 +71,9 @@ const Portfolio = () => {
                     <li className="tag__item play blue">
 						<a href="https://indulge.herokuapp.com/" target="_blank" rel="noreferrer"><i className="fas fa-play mr-2"></i>Deployed</a>
 					</li>
+					<li className="tag__item play blue">
+						<a href="https://youtu.be/yZqc9ZoLggI" target="_blank" rel="noreferrer"><i className="fas fa-play mr-2"></i>AWS EC2</a>
+					</li>
 				</ul>
 			</div>
 		</article>
