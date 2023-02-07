@@ -9,6 +9,8 @@ import Cup from '../../assets/images/Cup.png';
 import Notes from '../../assets/images/Notes.png';
 import Tikkitt from '../../assets/images/Shot1.png';
 import indulge from '../../assets/images/indulgeScreen.png';
+import MEALTRACKER from '../../assets/images/sm1.png';
+import Narcissist from '../../assets/images/narcissist.png';
 import Snowfall from 'react-snowfall';
 
 
@@ -51,6 +53,35 @@ const Portfolio = () => {
                 <section className="dark">
 	<div className=" py-4">
 		{/* <h1 className="h1 text-center" id="pageHeaderTitle">My Cards Dark</h1> */}
+
+		<article className="postcard dark blue">
+			<a className="postcard__img_link" href="https://narcissist-social.herokuapp.com/" target="_blank" rel="noreferrer">
+				<img className="postcard__img" src={Narcissist} alt="Narcissist Social" />	
+			</a>
+			<div className="postcard__text">
+				<h1 className="postcard__title red"><a href="https://narcissist-social.herokuapp.com/" target="_blank" rel="noreferrer">Narcissist Social</a></h1>
+				<div className="postcard__subtitle small">
+					<time datetime="2020-05-25 12:00:00">
+						<i className="fas fa-calendar-alt mr-2"></i>Febuary 2023
+					</time>
+				</div>
+				<div className="postcard__bar"></div>
+				<div className="postcard__preview-txt">Ruby on Rails social media mock application of Instagram. This application uses an assortment of integrations including: Gem Turbo, Devise (User Auth), active storage with AWS S3, bootstrap, Saas, Postgresql and Drag & Drop Filepond. The app is deployed over Heroku with an AWS S3 bucket for picture sharing. It has photo post sharing, likes and comments along with following capabilities.</div>
+				<ul className="postcard__tagbox">
+                <li className="tag__item play blue">
+						<a href="https://github.com/frozzel/narcissistSocial" target="_blank" rel="noreferrer"><i className="fas fa-play mr-2"></i>Github</a>
+					</li>
+                    <li className="tag__item play blue">
+						<a href="https://narcissist-social.herokuapp.com/" target="_blank" rel="noreferrer"><i className="fas fa-play mr-2"></i>Deployed</a>
+					</li>
+					
+				</ul>
+			</div>
+		</article>
+
+
+
+
 		<article className="postcard dark blue">
 			<a className="postcard__img_link" href="https://indulge.herokuapp.com/" target="_blank" rel="noreferrer">
 				<img className="postcard__img" src={indulge} alt="indulge" />	
@@ -107,6 +138,35 @@ Full Stack Application (MERN) that utilizes React-Dnd and animate.css to create 
 				</ul>
 			</div>
 		</article>
+
+		<article className="postcard dark blue">
+			<a className="postcard__img_link" href="https://meal-tracker.herokuapp.com/" target="_blank" rel="noreferrer">
+				<img className="postcard__img" src={MEALTRACKER} alt="Meal Tracker" />	
+			</a>
+			<div className="postcard__text">
+				<h1 className="postcard__title red"><a href="https://meal-tracker.herokuapp.com/" target="_blank" rel="noreferrer">Meal Tracker</a></h1>
+				<div className="postcard__subtitle small">
+					<time datetime="2020-05-25 12:00:00">
+						<i className="fas fa-calendar-alt mr-2"></i>January 2023
+					</time>
+				</div>
+				<div className="postcard__bar"></div>
+				<div className="postcard__preview-txt">My first Ruby on Rails application. Simple full CRUD application that tracks your daily meals, calories, fats, protiens and carbohydrates! This application was done through a youtube crash course on Ruby on Rails. It utilizes Bulma and Saas for its UI with a Postgresql database integration and Heroku deployment.</div>
+				<ul className="postcard__tagbox">
+                <li className="tag__item play blue">
+						<a href="https://github.com/frozzel/mealtracker" target="_blank" rel="noreferrer"><i className="fas fa-play mr-2"></i>Github</a>
+					</li>
+                    <li className="tag__item play blue">
+						<a href="https://meal-tracker.herokuapp.com/" target="_blank" rel="noreferrer"><i className="fas fa-play mr-2"></i>Deployed</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+
+
+
+
+
 		<article className="postcard dark blue">
 			<a className="postcard__img_link" href="https://ketorific.herokuapp.com/" target="_blank" rel="noreferrer">
 				<img className="postcard__img" src={KETORIFIC} alt="KETORIFIC" />	
