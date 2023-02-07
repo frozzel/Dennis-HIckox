@@ -45,10 +45,10 @@ const About = () => {
             rel="noreferrer">Amazon</a> <span>   </span><a href={GT} target="_blank"
             rel="noreferrer">Georgia Tech</a>    </p>
           <p>
-         Motivated Full Stack Web Developer and Junior Salesforce Administrator looking to join a growing team to continue building and improving on my Salesforce platform and Web Development capabilities.
+          Enthusiastic, detail oriented Junior Software Engineer looking to break into the tech industry. Excited and passionate about collaborating in a fast-paced, cutting-edge agile work environment that can fully utilize my experience working with React.js, Node.js, SQL, and Javascript in a cloud based environment like Amazon Web Services. 
           </p>
           <p align="LEFT">
-          Can provide administration and customization of internal and outward facing Salesforce products and front end/backend web development. Looking for a key position in a dynamic and entrepreneurial environment that is focused on growing a suite of products and services.
+          Quick learner, highly adaptable when developing new and emerging technologies using agile methodology with an end to end understanding of business use cases.
           </p>
           <h1>
             <AnimatedLetters
